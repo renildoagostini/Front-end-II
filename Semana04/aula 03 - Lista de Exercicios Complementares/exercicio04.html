@@ -1,0 +1,42 @@
+<!--Escreva	 um	 programa	 em	 C	 que	 leia	 5	 valores  inteiros  e	 imprima	 para cada	um	o	seu	correspondente	valor	absoluto.	Para	obter	o	valor	absoluto do	número	utilize	a	função	Absoluto especificada	abaixo	2: Nome:	Absoluto	-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+</head>
+
+<body>
+    <script>
+        function absoluto_(n) {
+            if (n > 0) {
+                return n;
+            } else {
+                return n * (- 1);
+            }
+        }
+
+        let absoluto = (n) => n > 0 ? n : n * (-1);
+
+let imprimir = (qtd = 3) => {
+    for (let i = 0; i < qtd; i++) {
+        let valor = prompt("Digite um valor");
+
+       
+        
+
+        // Usando template literals para exibir a mensagem no alert
+        alert(`O valor absoluto do número ${valor} é: ${absoluto(valor)}`);
+    }
+}
+
+imprimir(); //dessa forma consigo imprimir a quantidade de vezes que quero repetir, caso não passe nenhum parametro, vai imprimir 5 veze
+
+        
+    </script>
+</body>
+
+</html>

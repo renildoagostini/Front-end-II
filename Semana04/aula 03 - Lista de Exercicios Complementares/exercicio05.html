@@ -1,0 +1,50 @@
+<!--Escreva	um	programa	que	leia	5	números	inteiros	positivos (utilize	uma	função	 que	 leia	 esse	 número	 e	 verifique	 se  ele	 é	 positivo).	 Para	 cada número	informado	escrever	a	soma	de	seus	divisores	(exceto	ele	mesmo).	Utilize	a	função SomaDivisores para		obter	a soma.	
+Nome:	SomaDivisores	
+Descrição:	Calcula	a	soma	dos	divisores	do	número	informado	(exceto	ele	mesmo).	
+Entrada:	Um	número	inteiro	e	positivo.	
+Saída:	A	soma	dos	divisores.	
+Exemplo:	Para	o	valor	8:	1+2+4	=	
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<body>
+    <script>
+        let positivo = (n) => (n > 0) ? true : false;   
+
+        let somaDivisores = (n) => {
+            let contador = 1;
+            let soma = 0;
+
+            while(contador < n){
+                if(n % contador == 0){
+                    soma += contador;
+                    console.log([contador, soma]);
+                }
+            contador++;
+            }
+
+            return soma;
+        }
+
+        let imprimir = (qtd = 3) => {
+            for (let i = 0; i < qtd; i++) {
+                
+                let n = prompt('Digite um número: ');
+                alert (somaDivisores(n));
+            }
+        }
+        
+        imprimir(2); //dessa forma consigo imprimir a quantidade de vezes que quero repetir, caso não passe nenhum parametro, vai imprimir 5 vezes
+
+        
+
+    </script>
+</body>
+</html>

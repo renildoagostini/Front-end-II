@@ -1,0 +1,49 @@
+<!--Escreva	 uma função	 que	 receba	 dois	 números	inteiros	 retorne	 o	menor
+número-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+
+<body>
+    <script>
+        function compara_(n1, n2) {
+            if(n1 < n2){
+                return n1;
+            }else{
+                return n2;
+            }            
+        }   
+        
+        
+        let compara = (n1, n2) => (n1 < n2) ? n1 : n2;
+        /*{
+            if(n1 < n2){
+                return n1;
+            }else{
+                return n2;
+            }   
+        }*/
+
+        let n1 = prompt("Digite o primeiro número");
+        let n2 = prompt("Digite o segundo número");
+
+        let resultado = compara(n1, n2);
+
+        alert (resultado);
+        console.log(resultado);
+
+       // alert(`O menor número é ${compara(n1, n2)}`); // essa eu que modifiquei
+       // console.log(`O menor número é ${compara(n1, n2)}`); //essa eu que modifiquei
+
+
+
+    </script>
+</body>
+
+</html>

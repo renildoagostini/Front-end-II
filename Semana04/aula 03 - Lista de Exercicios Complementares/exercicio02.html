@@ -1,0 +1,23 @@
+
+<!--Escreva	uma	função	que	calcule e	retorne a	distância	entre dois pontos	(x1, y1)	e	 (x2, y2).	Todos	os números	e	 valores	de  retorno	devem	ser	do	tipo	float.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    <script>
+        /*function distancia_(x1, y1, x2, y2){
+            let d = Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2);
+            d = Math.sqrt(d);
+            return d;
+        }*/
+
+        let distancia = (x1, y1, x2, y2) =>  Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
+
+        alert(distancia(0,0,2,2))
+    </script>
+</body>
+</html>

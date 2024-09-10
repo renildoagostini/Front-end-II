@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador Ternário</title>
+</head>
+
+<body>
+    <h1>Aula Sobre Operador Ternário</h1>
+
+    <script>
+
+        /*let nota = prompt("Digite uma nota de 0 a 100");
+        let resultado;
+
+        if(nota < 60)
+            resultado = 'Nota inferior a media';
+        else
+            resultado = 'Parabéns! Nota superior a média';
+        alert(resultado);*/
+
+        //condition ? expr1 : expr2
+
+        /*let nota = prompt("Digite uma nota de 0 a 100");
+        80
+        
+        let resultado = (nota < 60) ? 'Nota inferior a media' : 'Parabéns! Nota superior a média';
+        
+        alert(resultado);*/
+
+        /*let nota = prompt("Digite uma nota de 0 a 100");
+        let resultado;
+
+        if(nota < 60)
+            resultado = 'Nota inferior a media';
+        else if(nota < 85)
+            resultado = 'Boa Média';
+        else
+            resultado = 'Parabéns! Nota superior a média';
+        alert(resultado);*/
+
+
+        let nota = prompt("Digite uma nota de 0 a 100");
+        let resultado = (nota < 60) ? 'Nota inferior a media' : (nota < 85)? 'Boa Média' : 'Parabéns! Nota superior a média';
+
+        alert(resultado);
+
+
+
+
+
+    </script>
+</body>
+
+</html>

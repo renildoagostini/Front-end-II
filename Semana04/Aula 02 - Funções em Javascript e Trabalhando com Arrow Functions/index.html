@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções em Javascript</title>
+</head>
+<body>
+    <h1>Aula 02 - Funções em Javascript e Trabalhando com Arrow Functions</h1>
+    
+    <script type="text/javascript">
+
+        /*function saudacao(nome = 'sem nome'){
+            //alert("Saudação, olá mundo!");
+            return 'Saudação a ' + nome + ' : olá mundo!';
+        }
+    
+       console.log(saudacao());
+       //let msg = saudacao();
+       //console.log (msg);
+
+
+       //Arrow function
+
+       //let saudacao = () => 'Arrow function => Saudação, olá mundo!';
+       //console.log (saudacao());*/
+
+       let saudacao = (nome = 'sem nome') =>  'Saudação a ' + nome + ' : olá mundo!';
+       console.log(saudacao('Renildo'));
+
+    </script>
+</body>
+</html>

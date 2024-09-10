@@ -1,0 +1,36 @@
+<!--Escreva	 uma	 função	 potencia(base,	 expoente) que,	 quando chamada, 
+retorna	base expoente.	Por	exemplo, potencia(3,	4)	deve	retornar	81.	Assuma	que	expoente	é um	inteiro	maior ou	igual	a	1.	-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <script>
+        /*function potencia(base, expoente){
+            return Math.pow(base, expoente);
+        }*/
+
+        //let potencia = (base, expoente) => Math.pow(base, expoente);
+
+        let potencia = (base, expoente) => {
+            let contador = 0;
+            let resposta = 1;
+
+            while(contador < expoente){
+                resposta *=  base;
+                contador++;
+                console.log([contador, resposta])
+            }
+
+            return resposta;
+        }
+
+
+        alert(potencia(3,  4));
+    </script>
+</body>
+</html>
