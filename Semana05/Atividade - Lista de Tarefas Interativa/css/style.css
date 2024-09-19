@@ -1,0 +1,17 @@
+h1 {
+    color: blueviolet;
+}
+
+img.imgBlocoNotas {
+    max-width: 100%;
+}
+
+.aDireita {
+    text-align: right;
+}
+
+body {
+    background: radial-gradient(circle, #acff5f, #7b9efe);
+   
+   
+}
