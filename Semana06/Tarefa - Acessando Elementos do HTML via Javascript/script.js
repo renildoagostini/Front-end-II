@@ -1,5 +1,6 @@
 //Questão a) Seleciona o elemento com o ID 'header-nav'
-let headerNav = document.getElementById('header-nav');
+document.getElementById('header-nav').style.backgroundColor = 'blue';
+
 
 /*Questão b) Selecione todos os elementos que contenha a classe bg-color-dark. Posterior a isso, modifique
 todos os elementos inserindo um novo texto. A descrição do texto é livre e deverá ser definida pelo
