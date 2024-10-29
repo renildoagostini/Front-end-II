@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body{        
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    header{
+        background-color: #fff462;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    header .logo img{
+        width: 80px;
+        border-radius: 50px;
+    }
+    
+    
+    
+    a{
+       text-decoration: none;       
+       text-transform: uppercase;
+       font-size: 14px;
+       font-weight: 700;
+       padding: 10px 20px;
+       transition: .2s;
+    }
+    
+    a:hover{
+        color: white;
+        background-color: black;
+    }
+
+    main{
+        background-color: #d1e489;
+        height: 580px;
+    }
+
+
+img.foto{
+    padding: 20px;
+    float: left;
+    height: 420px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer {
+    height: 200px;
+    background-color: #fff462;
+    color: blue;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p, footer a {
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+}
+
+footer a:hover {
+    color: #f9a825; /* Destaque ao passar o mouse */
+}
+
+/* Estilo das redes sociais */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #fff;
+}
+
+.social-icons a:hover {
+    color: #f9a825;
+}
+

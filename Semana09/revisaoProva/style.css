@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Noto Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(13, 0, 30);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.acoes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: 16px 19px;
+    font-size: 32px;
+    margin: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+#btnMais{
+    background-color: aquamarine;
+    border: none;
+}
+
+#btnMais:hover{
+    background-color: yellow;
+    border: none;
+}
+
+#btnMenos{
+    background-color: orange;
+    border: none;
+}
+
+#btnMenos:hover{
+    background-color: blueviolet;
+    border: none;
+}
+
+#numero{
+    height: 60px;
+    font-size: 24px;
+    width: 100px;
+}
+
+.container{    
+    width: 300px;
+    height: 250px;
+}
+
+.topo{
+    background-color: blueviolet;
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 16px;
+}

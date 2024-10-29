@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./img/3aa961ba-2f4e-46e2-aff9-c45905833605.webp" alt="Logo da loja">
+        </div>
+        <div class="links">
+            <a href="#">Roupas Femininas</a>
+            <a href="#">Roupas Masculinas</a>
+            <a href="#">Carinho</a>
+        </div>
+    </header>
+
+    <main>
+        <img src="/img/6d7c083d-6d15-40c7-8235-c04db34f2e08.webp" alt="catalogo de produto" class="foto">
+        <h1>Catálogo de Produtos</h1>
+
+        <form >
+            <label for="inProduto">Nome do Produto:</label>
+            <input type="text" id="inProduto" required placeholder="Nome do Produto" autofocus><br>
+
+            <label for="inDescricao">Descrição:</label>
+            <input type="text" id="inDescricao" required placeholder="Descrição do Produto"><br>
+
+            <label for="inPreco">Preço:</label>
+            <input type="number" id="inPreco" required placeholder="Preço do Produto"><br>
+
+            <button type="button" value="Adicionar" id="btAdicionar">Adicionar Produto</button>
+            
+        </form>
+
+        <pre id="outLista"></pre>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h4>Reago</h4>
+            <p>Endereço: Rua Exemplo, 123, Bairro Central, Cidade XYZ - 12345-678</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Email: contato@reago.com.br</p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/loja-reago" target="_blank" title="Facebook">📘</a>
+                <a href="https://www.instagram.com/loja-reago" target="_blank" title="Instagram">📷</a>
+                <a href="https://twitter.com/loja-reago" target="_blank" title="Twitter">🐦</a>
+                <a href="https://www.linkedin.com/company/loja-reago" target="_blank" title="LinkedIn">🔗</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
