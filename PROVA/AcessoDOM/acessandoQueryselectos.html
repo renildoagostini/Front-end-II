@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo DOM</title>
+</head>
+<body>
+    <h1 id="titulo">Olá, Mundo!</h1>
+    <p class="paragrafo">Texto do parágrafo.</p>
+    <button id="botao">Alterar título</button>
+
+    <script>
+        // Usando querySelector para acessar o título pelo ID
+        let titulo = document.querySelector("#titulo");
+        console.log(titulo.textContent);  // Exibe "Olá, Mundo!"
+        
+        // Usando querySelector para acessar o parágrafo pela classe
+        let paragrafo = document.querySelector(".paragrafo");
+        console.log(paragrafo.textContent);  // Exibe "Texto do parágrafo."
+    </script>
+</body>
+</html>

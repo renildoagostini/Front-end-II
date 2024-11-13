@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor do Fundo</title>
+</head>
+
+<body>
+    <button onclick="mudarCorFundo('blue')">Fundo Azul</button>
+    <button onclick="mudarCorFundo('yellow')">Fundo Amarelo</button>
+    <button onclick="mudarCorFundo('red')">Fundo Vermelho</button>
+    <button onclick="mudarCorFundo('orange')">Fundo Laranja</button>
+
+    <script>
+        function mudarCorFundo(cor) {
+            document.body.style.backgroundColor = cor;
+        }
+    </script>
+</body>
+
+</html>

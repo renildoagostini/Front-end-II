@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificando Classes</title>
+    <style>
+        .destaque {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="texto">Este é um texto.</p>
+    <button onclick="destacarTexto()">Destacar Texto</button>
+    <button onclick="retornarOriginal()">Retornar ao Original</button>
+
+    <script>
+        function destacarTexto() {
+            let texto = document.getElementById("texto");
+            texto.classList.add("destaque");  // Adiciona a classe "destaque" ao texto
+        }
+
+        retornarOriginal = () => {
+            let texto = document.getElementById("texto");
+            texto.classList.remove("destaque");
+        }
+    </script>
+</body>
+</html>

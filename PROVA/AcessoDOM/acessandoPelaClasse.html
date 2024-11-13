@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo DOM</title>
+</head>
+<body>
+    <p class="paragrafo">Primeiro parágrafo</p>
+    <p class="paragrafo">Segundo parágrafo</p>
+    <button id="botao">Alterar parágrafos</button>
+
+    <script>
+        // Acessando todos os parágrafos com a classe "paragrafo"
+        let paragrafos = document.getElementsByClassName("paragrafo");
+        console.log(paragrafos[0].textContent);  // Exibe "Primeiro parágrafo"
+        console.log(paragrafos[1].textContent);  // Exibe "Segundo parágrafo"
+    </script>
+</body>
+</html>

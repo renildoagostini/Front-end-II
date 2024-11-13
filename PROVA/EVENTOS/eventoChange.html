@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Change</title>
+</head>
+<body>
+    <select name="" id="seletorCor" style="width: 150px; padding: 5px; text-align-last: center;">
+        <option value="Escolha" disabled selected>Escolha uma cor</option>
+        <option value="red">Vermelho</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+    </select>
+
+    <script>
+        document.getElementById("seletorCor").addEventListener("change", function(event){
+            document.body.style.backgroundColor = event.target.value;
+        })
+    </script>
+</body>
+</html>

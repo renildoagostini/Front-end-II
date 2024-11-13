@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color: #dcdcdc;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+}
+
+
+header img {
+    width: 100px;
+    height: 100px;
+    padding: 30px;    
+}

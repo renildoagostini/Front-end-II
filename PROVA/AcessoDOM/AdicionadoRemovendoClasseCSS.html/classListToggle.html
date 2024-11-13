@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternando Classe com Toggle</title>
+    <style>
+        .ativo {
+            background-color: yellow;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <button id="meuBotao" onclick="alternarCor()">Clique para alternar cor</button>
+
+    <script>
+         alternarCor = () =>{
+            document.getElementById("meuBotao").classList.toggle("ativo");  // Alterna a classe "ativo"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Submit</title>
+</head>
+<body>
+    <form id="meuFormulario">
+        <input type="text" name="" id="nome" placeholder="Digite seu nome"> 
+        <button type="submit">Enviar</button>
+
+        <script>
+            document.getElementById("meuFormulario").addEventListener("submit", function(event){
+                event.preventDefault(); //evita o envio do formulário
+                alert("Formulário enviado com sucesso");
+            })
+        </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção elementos</title>
+</head>
+<body>
+    <p id="mensagem">Bem-vindo ao site</p>
+    <button id="botao">Mudar Mensagem</button>
+
+    <script>
+        document.getElementById("botao").addEventListener("click", function(){
+            document.getElementById("mensagem").textContent = `Obrigado por visitar o site`;
+        })
+    </script>
+</body>
+</html>

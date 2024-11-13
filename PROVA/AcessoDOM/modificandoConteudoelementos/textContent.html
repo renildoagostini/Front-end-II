@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificando Conteúdo</title>
+</head>
+<body>
+    <h1 id="titulo">Texto Original</h1>
+    <button id="btn"">Alterar Texto</button>
+
+    <script>
+
+        document.getElementById('btn').addEventListener("click", alterarTexto = () => {
+            let titulo = document.getElementById("titulo");
+            titulo.textContent = "Novo Texto";
+        });
+
+        
+    </script>
+</body>
+</html>

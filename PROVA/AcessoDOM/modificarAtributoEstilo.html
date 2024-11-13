@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Atributos e Estilos</title>
+    <style>
+        #imagem{
+            width: 400px;
+            height: 400px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <img src="/Acesso ao DOM/img/Logo.png" alt="Imagem inicial" id="imagem">
+    <button id="botaoTrocaImagem">Trocar imagem</button>
+
+    <script>
+        document.getElementById("botaoTrocaImagem").addEventListener("click", function(){
+            document.getElementById("imagem").src = "/Acesso ao DOM/img/logoReago.png"
+        })
+    </script>
+</body>
+</html>

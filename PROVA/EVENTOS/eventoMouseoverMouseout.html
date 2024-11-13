@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Mouseover e Mouseout</title>
+</head>
+<body>
+    <div id="caixa" style="width: 900px; height: 200px; background-color: gray" ></div>
+
+    <script>
+        const caixa = document.getElementById("caixa");
+
+// Evento para mudar a cor quando o mouse está sobre o elemento
+caixa.addEventListener("mouseover", function() {
+    caixa.style.backgroundColor = "yellow";
+});
+
+// Evento para restaurar a cor quando o mouse sai do elemento
+caixa.addEventListener("mouseout", function() {
+    caixa.style.backgroundColor = "gray";
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alterar Conteúdo do Elemento</title>
+</head>
+<body>
+    <p id="meuParagrafo">Clique no botão para mudar este texto</p>
+    <button onclick="mudarTexto()">Mudar Texto</button>
+
+    <script>
+        function mudarTexto(){
+            document.getElementById("meuParagrafo").innerText = `Mudei para Renildo Ribeiro Agostini`;
+        }
+    </script>
+</body>
+</html>

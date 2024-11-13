@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removendo Atributo</title>
+</head>
+<body>
+    <button id="botao" disabled>Botão Desabilitado</button>
+    <button onclick="habilitarBotao()">Habilitar Botão</button>
+    <button onclick="desabilitarBotao()">desabilitar Botão</button>
+
+    <script>
+        habilitarBotao = () => {
+            document.getElementById("botao").removeAttribute("disabled");  // Remove o atributo "disabled"
+        }
+
+        desabilitarBotao = () => {
+            document.getElementById("botao").setAttribute("disabled", "true");  //Adicionar atributo
+        }
+
+
+    </script>
+</body>
+</html>
