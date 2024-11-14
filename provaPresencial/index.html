@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso de talentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Concurso de talentos</h1>
+        <div class="placar">
+            <div class="time">
+                <h2>Equipe A</h2>
+                <p id="pontuacaoA">0</p>
+                <input type="number" id="pontosA" placeholder="Pontos" min="1" value="1">
+                <button id="btnA">Adicionar Pontos</button>
+            </div>
+            <div class="time">
+                <h2>Equipe B</h2>
+                <p id="pontuacaoB">0</p>
+                <input type="number" id="pontosB" placeholder="Pontos" min="1" value="1">
+                <button onclick="adicionarPontos('B')">Adicionar Pontos</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

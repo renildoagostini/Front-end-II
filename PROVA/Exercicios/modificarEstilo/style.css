@@ -1,0 +1,22 @@
+body{
+    background-color: pink;
+}
+
+#azul:hover{
+    background-color: blue;
+    color: white;
+}
+
+#amarelo:hover{
+    background-color: yellow;    
+}
+
+#vermelho:hover{
+    background-color: red;
+    color: white;
+}
+
+#laranja:hover{
+    background-color: orange;
+    color: white;
+}
